@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+header{
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  background-color: black;
+}
+body{
+  background-color: #2f2f2f;
+}
+
+
+nav ::after{
+  content: "";
+  display: table;
+}
+
+
+.rider{
+  color: aliceblue;
+}
+.Nummer-logo {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 250px;
+}
+
+#NName {
+  margin-left: 1350px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: aliceblue;
+}
+
+.User{
+  margin-left: 15px;
+  margin-bottom: 0px;
+  width: 55px;
+}
+
+.menu ul{
+  padding: 0%;
+  margin: 0px;
+  overflow: hidden;
+  color: aliceblue;
+  background-color: rgb(25, 25, 28);
+}
+
+.menu ul li{
+  float: left;
+  list-style-type:none ;
+  padding: 10px;
+}
+
+
+.App-header {
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: rgb(213, 3, 3);
+}
+
+.Content{
+  margin-top: 50px;
+  margin-left: 50px;
+  color: aliceblue;
+}
+
+.box01{
+  border-radius: 8px;
+  border: #2f2f2f;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 50px;
+  background-color: rgb(26, 26, 26);
+}
+.MovieCover{
+  width: 390px;
+
+  padding: 0%;
+  margin-left: 25px;
+
+  float: left;
+  list-style-type:none ;
+  padding: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
